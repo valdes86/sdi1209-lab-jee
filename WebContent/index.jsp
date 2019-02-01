@@ -1,6 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
-<title>Servlets</title>
+<title>JSP</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet"
@@ -19,7 +23,7 @@
 				<div>
 					<img src="img/iconfinder_apple.png" />
 					<div>Manzanas</div>
-					<a href="ServletCarrito?producto=manzanas"
+					<a href="incluirEnCarrito?producto=manzanas"
 						class="btn btn-default"> 2.05 € </a>
 				</div>
 			</div>
@@ -27,23 +31,23 @@
 				<div>
 					<img src="img/iconfinder_strawberry.png" />
 					<div>Fresas</div>
-					<a href="ServletCarrito?producto=fresas" class="btn btn-default">
+					<a href="incluirEnCarrito?producto=fresas" class="btn btn-default">
 						2.20 € </a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<div>
-					<img src=" img/iconfinder_orange.png" />
+					<img src="img/iconfinder_orange.png" />
 					<div>Naranjas</div>
-					<a href="ServletCarrito?producto=naranjas"
+					<a href="incluirEnCarrito?producto=naranjas"
 						class="btn btn-default"> 2.10 € </a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<div>
-					<img src="img/iconfinder_bread.png " />
+					<img src=" img/iconfinder_bread.png" />
 					<div>Pan</div>
-					<a href="ServletCarrito?producto=pan" class="btn btn-default">
+					<a href="incluirEnCarrito?producto=pan" class="btn btn-default">
 						0.80 € </a>
 				</div>
 			</div>

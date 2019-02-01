@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class ServletCarrito
  */
-@WebServlet("/ServletCarrito")
+@WebServlet("/incluirEnCarrito")
 public class ServletCarrito extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -63,7 +63,7 @@ public class ServletCarrito extends HttpServlet {
 		out.println("<HEAD><TITLE>Tienda SDI: carrito</TITLE></HEAD>");
 		out.println("<BODY>");
 		out.println(carritoEnHTML(carrito) + "<br>");
-		out.println("<a href=\"tienda.html\">Volver</a></BODY></HTML>");
+		out.println("<a href=\"index.jsp\">Volver</a></BODY></HTML>");
 	}
 
 	/**
