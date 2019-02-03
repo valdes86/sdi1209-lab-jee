@@ -14,12 +14,19 @@ public class Producto {
 	private String imagen;
 	private float precio;
 	
-	
+	/**
+	 * Constructor sin argumentos
+	 */
+	public Producto() {
+		
+	}
 	
 	/**
-	 * @param nombre
-	 * @param imagen
-	 * @param precio
+	 * Constructor con argumentos 
+	 * 
+	 * @param nombre nombre del producto
+	 * @param imagen URL de la imagen 
+	 * @param precio precio del producto
 	 */
 	public Producto(String nombre, String imagen, float precio) {
 		super();
